@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cZxAg+q71ZNI6SLGc5yf8C358H2OXDjdPOjW1l/EBVEat2H8FN6jfi1q40RIVO3XXbZbT4h3T/hPbbwPKSKEUw==",
+  "success": true,
+  "projectFilePath": "E:\\Ecommerce\\E-Commerce\\E-Commerce.Service\\E-Commerce.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VICTUS\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

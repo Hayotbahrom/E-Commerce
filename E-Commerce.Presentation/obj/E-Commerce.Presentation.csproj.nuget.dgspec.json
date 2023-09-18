@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hayotbahrom\\Desktop\\Loyiha\\E-Commerce\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj": {}
+    "E:\\Ecommerce\\E-Commerce\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hayotbahrom\\Desktop\\Loyiha\\E-Commerce\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj": {
+    "E:\\Ecommerce\\E-Commerce\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hayotbahrom\\Desktop\\Loyiha\\E-Commerce\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj",
+        "projectUniqueName": "E:\\Ecommerce\\E-Commerce\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj",
         "projectName": "E-Commerce.Presentation",
-        "projectPath": "C:\\Users\\Hayotbahrom\\Desktop\\Loyiha\\E-Commerce\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj",
-        "packagesPath": "C:\\Users\\Hayotbahrom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hayotbahrom\\Desktop\\Loyiha\\E-Commerce\\E-Commerce.Presentation\\obj\\",
+        "projectPath": "E:\\Ecommerce\\E-Commerce\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj",
+        "packagesPath": "C:\\Users\\VICTUS\\.nuget\\packages\\",
+        "outputPath": "E:\\Ecommerce\\E-Commerce\\E-Commerce.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hayotbahrom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\VICTUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

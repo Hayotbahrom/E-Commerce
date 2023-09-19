@@ -70,19 +70,69 @@ public class UserService : IUserService
         return mappedUsers;
     }
 
-    public Task<UserForResultDto> GetByIdAsync(long id)
+    public async Task<UserForResultDto> GetByIdAsync(long id)
     {
-        throw new NotImplementedException();
+        var user = await userRepository.SelectByIdAsync(id);
+        if (user == null)
+            throw new CustomException(404, "User is not found");
+
+        var result = new UserForResultDto()
+        {
+            Id = user.Id,
+            FirstName = user.FirstName,
+            LastName = user.LastName,
+            Email = user.Email,
+            Password = user.Password,
+            Balance = user.Balance,
+            CountryCode = user.CountryCode
+        };
+
+        return result;
     }
 
-    public Task<UserForResultDto> RemoveAsync(long id)
+    public async Task<bool> RemoveAsync(long id)
     {
-        throw new NotImplementedException();
+        var user = await userRepository.SelectByIdAsync(id);
+        if (user == null)
+            throw new CustomException(404, "User is not found");
+
+        await userRepository.DeleteAsync(id);
+
+        return true;
     }
 
-    public Task<UserForResultDto> UpdateAsync(UserForUpdateDto dto)
+    public async Task<UserForResultDto> UpdateAsync(UserForUpdateDto dto)
     {
-        throw new NotImplementedException();
+        var user = await userRepository.SelectByIdAsync(dto.Id);
+        if (user == null)
+            throw new CustomException(404, "User is not found");
+
+        var meppedUser = new User()
+        {
+            Id = dto.Id,
+            FirstName = dto.FirstName,
+            LastName = dto.LastName,
+            Email = dto.Email,
+            Password = dto.Password,
+            Balance = dto.Balance,
+            CountryCode = dto.CountryCode,
+            UpdatedAt = DateTime.UtcNow
+        };
+
+        await userRepository.UpdateAsync(meppedUser);
+
+        var result = new UserForResultDto()
+        {
+            Id = meppedUser.Id,
+            FirstName = meppedUser.FirstName,
+            LastName = meppedUser.LastName,
+            Email = meppedUser.Email,
+            Password = meppedUser.Password,
+            Balance = meppedUser.Balance,
+            CountryCode= meppedUser.CountryCode,
+        };
+
+        return result;
     }
 
     public async Task GenerateIdAsync()

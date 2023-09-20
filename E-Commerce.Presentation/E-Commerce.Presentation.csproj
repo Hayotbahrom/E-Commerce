@@ -8,4 +8,8 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\E-Commerce.Service\E-Commerce.Service.csproj" />
+  </ItemGroup>
+
 </Project>

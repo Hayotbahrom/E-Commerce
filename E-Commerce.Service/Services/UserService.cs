@@ -17,9 +17,9 @@ public class UserService : IUserService
         var user = (await userRepository.SelectAllAsync())
             .FirstOrDefault(u => u.Email.ToLower()==dto.Email.ToLower());
         if (user != null)
-        {
             throw new CustomException(409, "User is already exist");
-        }
+        
+        await GenerateIdAsync();
         User person = new User()
         {
             Id = _id,
@@ -42,7 +42,7 @@ public class UserService : IUserService
             Email = person.Email,
             Password = person.Password,
             Balance = person.Balance,
-            CountryCode = person.CountryCode,
+            CountryCode = person.CountryCode
         };
 
         return result;

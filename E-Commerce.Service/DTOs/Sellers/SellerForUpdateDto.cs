@@ -1,6 +1,6 @@
 ﻿namespace E_Commerce.Service.DTOs.Sellers;
 
-public interface SellerForUpdateDto
+public class SellerForUpdateDto
 {
     public long Id { get; set; }
     public string FirstName { get; set; }

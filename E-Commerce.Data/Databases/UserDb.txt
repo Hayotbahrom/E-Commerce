@@ -1,1 +1,35 @@
-﻿
+[
+  {
+    "FirstName": "aa",
+    "LastName": "aa",
+    "Email": "aa@gmail.com",
+    "Password": "aa",
+    "Balance": 100.0,
+    "CountryCode": "uz",
+    "Id": 1,
+    "CreatedAt": "2023-09-20T05:30:39.9495423Z",
+    "UpdatedAt": null
+  },
+  {
+    "FirstName": "aa",
+    "LastName": "aa",
+    "Email": "aa",
+    "Password": "aa",
+    "Balance": 15.0,
+    "CountryCode": "uz",
+    "Id": 2,
+    "CreatedAt": "2023-09-20T05:54:22.6961286Z",
+    "UpdatedAt": null
+  },
+  {
+    "FirstName": "tt",
+    "LastName": "ll",
+    "Email": "ll",
+    "Password": "ll",
+    "Balance": 1500.0,
+    "CountryCode": "ru",
+    "Id": 3,
+    "CreatedAt": "2023-09-20T06:38:40.9337994Z",
+    "UpdatedAt": null
+  }
+]

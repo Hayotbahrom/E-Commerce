@@ -1,1 +1,9 @@
-﻿
+[
+  {
+    "ProductId": 4,
+    "Quantity": 5,
+    "Id": 0,
+    "CreatedAt": "2023-09-20T07:08:30.4205362Z",
+    "UpdatedAt": null
+  }
+]

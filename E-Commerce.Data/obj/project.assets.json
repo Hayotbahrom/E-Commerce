@@ -71,19 +71,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\VICTUS\\.nuget\\packages\\": {}
+    "C:\\Users\\Hayotbahrom\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Ecommerce\\E-Commerce\\E-Commerce.Data\\E-Commerce.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Data\\E-Commerce.Data.csproj",
       "projectName": "E-Commerce.Data",
-      "projectPath": "E:\\Ecommerce\\E-Commerce\\E-Commerce.Data\\E-Commerce.Data.csproj",
-      "packagesPath": "C:\\Users\\VICTUS\\.nuget\\packages\\",
-      "outputPath": "E:\\Ecommerce\\E-Commerce\\E-Commerce.Data\\obj\\",
+      "projectPath": "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Data\\E-Commerce.Data.csproj",
+      "packagesPath": "C:\\Users\\Hayotbahrom\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\VICTUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Hayotbahrom\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -97,8 +97,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\Ecommerce\\E-Commerce\\E-Commerce.Domain\\E-Commerce.Domain.csproj": {
-              "projectPath": "E:\\Ecommerce\\E-Commerce\\E-Commerce.Domain\\E-Commerce.Domain.csproj"
+            "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Domain\\E-Commerce.Domain.csproj": {
+              "projectPath": "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Domain\\E-Commerce.Domain.csproj"
             }
           }
         }

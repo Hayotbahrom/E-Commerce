@@ -1,20 +1,85 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Ecommerce\\E-Commerce\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj": {}
+    "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj": {}
   },
   "projects": {
-    "E:\\Ecommerce\\E-Commerce\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj": {
+    "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Data\\E-Commerce.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Ecommerce\\E-Commerce\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj",
-        "projectName": "E-Commerce.Presentation",
-        "projectPath": "E:\\Ecommerce\\E-Commerce\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj",
-        "packagesPath": "C:\\Users\\VICTUS\\.nuget\\packages\\",
-        "outputPath": "E:\\Ecommerce\\E-Commerce\\E-Commerce.Presentation\\obj\\",
+        "projectUniqueName": "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Data\\E-Commerce.Data.csproj",
+        "projectName": "E-Commerce.Data",
+        "projectPath": "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Data\\E-Commerce.Data.csproj",
+        "packagesPath": "C:\\Users\\Hayotbahrom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\VICTUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hayotbahrom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Domain\\E-Commerce.Domain.csproj": {
+                "projectPath": "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Domain\\E-Commerce.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Domain\\E-Commerce.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Domain\\E-Commerce.Domain.csproj",
+        "projectName": "E-Commerce.Domain",
+        "projectPath": "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Domain\\E-Commerce.Domain.csproj",
+        "packagesPath": "C:\\Users\\Hayotbahrom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hayotbahrom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,6 +93,127 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj",
+        "projectName": "E-Commerce.Presentation",
+        "projectPath": "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj",
+        "packagesPath": "C:\\Users\\Hayotbahrom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hayotbahrom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Service\\E-Commerce.Service.csproj": {
+                "projectPath": "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Service\\E-Commerce.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Service\\E-Commerce.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Service\\E-Commerce.Service.csproj",
+        "projectName": "E-Commerce.Service",
+        "projectPath": "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Service\\E-Commerce.Service.csproj",
+        "packagesPath": "C:\\Users\\Hayotbahrom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hayotbahrom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Data\\E-Commerce.Data.csproj": {
+                "projectPath": "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Data\\E-Commerce.Data.csproj"
+              },
+              "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Domain\\E-Commerce.Domain.csproj": {
+                "projectPath": "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Domain\\E-Commerce.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

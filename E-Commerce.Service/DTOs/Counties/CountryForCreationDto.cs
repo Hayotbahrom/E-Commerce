@@ -3,5 +3,5 @@
 public class CountryForCreationDto
 {
     public string Name { get; set; }
-    public long CountryCode { get; set; }
+    public string CountryCode { get; set; }
 }

@@ -1,1 +1,29 @@
-﻿
+[
+  {
+    "Name": "apple",
+    "SellerId": 0,
+    "Price": 5000.0,
+    "CategoryId": 2,
+    "Id": 1,
+    "CreatedAt": "2023-09-20T11:11:34.5727744Z",
+    "UpdatedAt": null
+  },
+  {
+    "Name": "banana",
+    "SellerId": 0,
+    "Price": 8000.0,
+    "CategoryId": 2,
+    "Id": 2,
+    "CreatedAt": "2023-09-20T11:12:04.5527221Z",
+    "UpdatedAt": null
+  },
+  {
+    "Name": "carrot",
+    "SellerId": 0,
+    "Price": 4000.0,
+    "CategoryId": 1,
+    "Id": 0,
+    "CreatedAt": "2023-09-20T11:12:38.4448002Z",
+    "UpdatedAt": null
+  }
+]

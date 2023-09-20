@@ -2,11 +2,11 @@
 
 public class DatabasePath
 {
-    public const string UserDb = "E:\\Ecommerce\\E-Commerce\\E-Commerce.Data\\Databases\\UserDb.txt";
-    public const string ProductDb = "E:\\Ecommerce\\E-Commerce\\E-Commerce.Data\\Databases\\ProductDb.txt";
-    public const string SellerDb = "E:\\Ecommerce\\E-Commerce\\E-Commerce.Data\\Databases\\SellerDb.txt";
-    public const string OrderDb = "E:\\Ecommerce\\E-Commerce\\E-Commerce.Data\\Databases\\OrderDb.txt";
-    public const string CountryDb = "E:\\Ecommerce\\E-Commerce\\E-Commerce.Data\\Databases\\CountryDb.txt";
-    public const string CategoryDb = "E:\\Ecommerce\\E-Commerce\\E-Commerce.Data\\Databases\\CategoryDb.txt";
-    public const string CartDb = "E:\\Ecommerce\\E-Commerce\\E-Commerce.Data\\Databases\\CartDb.txt";
+    public const string UserDb = "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Data\\Databases\\UserDb.txt";
+    public const string ProductDb = "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Data\\Databases\\ProductDb.txt";
+    public const string SellerDb = "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Data\\Databases\\SellerDb.txt";
+    public const string OrderDb = "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Data\\Databases\\OrderDb.txt";
+    public const string CountryDb = "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Data\\Databases\\CountryDb.txt";
+    public const string CategoryDb = "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Data\\Databases\\CategoryDb.txt";
+    public const string CartDb = "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Data\\Databases\\CartDb.txt";
 }

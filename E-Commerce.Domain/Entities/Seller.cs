@@ -6,5 +6,5 @@ public class Seller : Auditable
 {
     public string FirstName { get; set; }
     public string LastName { get; set; }
-    public long CountryCode { get; set; }
+    public string CountryCode { get; set; }
 }

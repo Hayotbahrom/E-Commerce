@@ -1,1 +1,18 @@
-﻿
+[
+  {
+    "FirstName": "ww",
+    "LastName": "ww",
+    "CountryCode": "us",
+    "Id": 1,
+    "CreatedAt": "2023-09-20T11:10:45.5877983Z",
+    "UpdatedAt": null
+  },
+  {
+    "FirstName": "asad",
+    "LastName": "asadbek",
+    "CountryCode": "us",
+    "Id": 2,
+    "CreatedAt": "2023-09-20T11:35:09.0077415Z",
+    "UpdatedAt": null
+  }
+]

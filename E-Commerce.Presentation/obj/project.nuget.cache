@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lepkW87DJOiIFi5QTo4g3yskjISGyYxseaz/Eemz9hiTX6wgSP/RvSbls6dzUBKURilz+QCq4Sk9+8IZ0S5IVQ==",
+  "dgSpecHash": "UyY6KibK+bc4e6OMV1z7cq9gCdTfHKSGiT3UsM/AW9Nwov1p7qzOq6GiOwgbmOeBe4PmFxLlTotFc1/gdEjWOA==",
   "success": true,
-  "projectFilePath": "E:\\Ecommerce\\E-Commerce\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Hayotbahrom\\Desktop\\E-commerce 2\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hayotbahrom\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

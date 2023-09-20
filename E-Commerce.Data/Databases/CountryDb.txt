@@ -1,1 +1,30 @@
-﻿
+[
+  {
+    "Name": "Uzbekistan",
+    "CountryCode": "UZ",
+    "Id": 1,
+    "CreatedAt": "2023-09-20T05:54:22.6261248Z",
+    "UpdatedAt": null
+  },
+  {
+    "Name": "Russia",
+    "CountryCode": "RU",
+    "Id": 2,
+    "CreatedAt": "2023-09-20T06:38:40.8925251Z",
+    "UpdatedAt": null
+  },
+  {
+    "Name": "United States of America",
+    "CountryCode": "US",
+    "Id": 3,
+    "CreatedAt": "2023-09-20T11:10:45.5350086Z",
+    "UpdatedAt": null
+  },
+  {
+    "Name": "United States of America",
+    "CountryCode": "US",
+    "Id": 4,
+    "CreatedAt": "2023-09-20T11:35:08.9703657Z",
+    "UpdatedAt": null
+  }
+]
